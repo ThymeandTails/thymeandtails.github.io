@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thyme & Tails</title>
+  <title>Farm School & Learning</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Libre+Baskerville&display=swap" rel="stylesheet">
   <style>
     body {
@@ -30,23 +30,36 @@
     nav a:hover {
       color: #ddd4b6;
     }
-    .hero, section {
-      text-align: center;
-      padding: 3rem 1rem;
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: #5a4e3c;
+    }
+    section {
+      padding: 2rem;
       background: #e5e0d5;
       border-top: 2px solid #6e6b5e;
       border-bottom: 2px solid #6e6b5e;
     }
-    h1, h2 {
-      font-family: 'Playfair Display', serif;
-      color: #5a4e3c;
+    .ebooks, .blog {
+      max-width: 800px;
+      margin: 0 auto;
     }
-    p, a {
-      font-size: 1rem;
-      color: #3b3b3b;
+    .ebook, .post {
+      margin-bottom: 2rem;
+      background: #fdfaf5;
+      padding: 1rem;
+      border: 1px solid #ccc5b9;
+      border-radius: 8px;
     }
-    a {
-      text-decoration: underline;
+    a.button {
+      background-color: #6e6b5e;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    a.button:hover {
+      background-color: #5c5a4e;
     }
     footer {
       font-size: 0.9rem;
@@ -54,7 +67,6 @@
   </style>
 </head>
 <body>
-
   <header>
     <h1>Thyme & Tails</h1>
     <nav>
@@ -66,16 +78,38 @@
     </nav>
   </header>
 
+  <section class="ebooks">
+    <h2>📚 eBooks & Courses</h2>
 
-  <section>
-    <h2>Farm School & Workshops</h2>
-    <p>Join us for hands-on learning: herbalism, natural living, and homeschool-friendly farm days — all rooted in faith and tradition.</p>
+    <div class="ebook">
+      <h3>Herbal First Aid Guide</h3>
+      <p>A practical, plant-powered guide to treating everyday injuries and ailments with natural remedies.</p>
+      <a href="#" class="button">Buy Now</a>
+    </div>
+
+    <div class="ebook">
+      <h3>Farm School Nature Journal (Free)</h3>
+      <p>A printable journal for homeschoolers to connect with creation, observe nature, and grow in wonder.</p>
+      <a href="#" class="button">Download Free</a>
+    </div>
   </section>
 
+  <section class="blog">
+    <h2>📝 Farm School Blog</h2>
+
+    <div class="post">
+      <h3>September 2025 – Canning with Littles</h3>
+      <p>This month we hosted a hands-on canning demo for local homeschoolers. The apple butter was bubbling, and so was the laughter. Here’s how we turned it into a learning experience!</p>
+    </div>
+
+    <div class="post">
+      <h3>August 2025 – Chicken Math & Coop Fractions</h3>
+      <p>Feeding time turned into an impromptu math lesson when we calculated feed rations, egg production, and yes — coop square footage!</p>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 Thyme & Tails</p>
   </footer>
-
 </body>
 </html>
