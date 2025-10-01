@@ -25,3 +25,14 @@ section {
 a {
   color: #5a704a;
 }
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.logo {
+  height: 60px;
+  width: auto;
+  max-height: 60px;
+}
